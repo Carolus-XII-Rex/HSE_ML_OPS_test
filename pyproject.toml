@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hw"
+version = "0.1.0"
+description = ""
+authors = ["Carolus-XII-Rex <nik.kiriushkin.git@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "1.23.5"
+pandas = "1.5.3"
+catboost = "1.2.2"
+scikit-learn = "1.2.2"
+pyarrow = "9.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
